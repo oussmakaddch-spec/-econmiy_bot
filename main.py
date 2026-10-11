@@ -75,8 +75,8 @@ if __name__ == '__main__':
     t = threading.Thread(target=run_flask)
     t.start()
     
-    # حط التوكن تاع البوت تاعك هنا
-    BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
+    # توكن البوت الخاص بك
+    BOT_TOKEN = "8705649923:AAGb8DYmtYle2a5MBI_1pnRqPwoeQ7IDnK4"
     
     # تشغيل بوت تليجرام
     application = ApplicationBuilder().token(BOT_TOKEN).build()
